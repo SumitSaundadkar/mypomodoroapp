@@ -1,3 +1,28 @@
+.App ,html {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 
+}
+:root {
+  --cta-color: #05051a;
+  --hover-bg: #5555ee;
+  --primary-color: #161617;
+  --success-color: #7eb691;
+  --secondary-color: #441744;
+  --success-color: #7eb691;
+  --warning-color: #f5c118;
+  --error-color: #b62336;
+  --info-color: #77acbe;
+  --offline-color:#d4dde08c;
+  --primary-font-colour: #fff;
+  --btn-primary-color:#007BFF;
+  --btn-secondary-color:#6C757D;
+  --box-shadow:rgba(19, 1, 1, 0.822);
+  
+  
+}
 
 
