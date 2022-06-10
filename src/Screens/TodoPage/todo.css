@@ -41,3 +41,9 @@
     font-size: 2rem;
 
 }
+.add_btn:hover{
+   color: rgb(1, 66, 1);
+}
+.dlt_btn:hover{
+    color: red;
+}

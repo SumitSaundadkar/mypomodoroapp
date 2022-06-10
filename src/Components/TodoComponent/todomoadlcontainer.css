@@ -1,0 +1,81 @@
+.modal_container{
+    display: flex;
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 2rem;
+}
+.modal_content{
+    width: 27rem;
+    height: 30rem;
+    background: linear-gradient(to right, #4a6b81, #189adb); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+}
+.modalconatainer_heading{
+    font-size: 2rem;
+}
+.settings_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.remove{
+    cursor: pointer;
+}
+.input_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form_control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+input{
+    background: linear-gradient(to right, #dae6ee, #3a6073);
+    width: 18rem;
+}
+.label{
+    color: black;
+  
+
+}
+.edit{
+    font-size: 2rem;
+}
+.txt_area{
+    height: 8.5rem;
+    width: 16rem;
+    background: linear-gradient(to right, #dae6ee, #3a6073);
+    border-radius: 10px;
+}
+.submit_btn{
+    background: linear-gradient(to right, #dc2424, #4a569d);
+    width: 7rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: 10px;
+  
+}
+.submit_btn:hover{
+    color: #d3b8b8;
+}

@@ -16,13 +16,13 @@
 .pomo_button_container{
     display: flex;
     width: 28%;
-    height: 4.2rem;
+    height: min-content;
     justify-content: space-around;
     align-items: center;
-   background: linear-gradient(to right, #16222a, #3a6073); 
     padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
+    font-size: 2rem;
 }
 .pommo_button_gropus{
     width: 12rem;
@@ -31,22 +31,23 @@
     border-radius: 2rem;
     font-size: 1.8rem;
     font-weight: 600;
+    
 
 }
 .pommo_button_gropus_:hover{
   color: #dc2424;
 }
-.pomo_watch_container{
+.todo_watch_container{
     display: flex;
+    flex-direction: row;
     width: 28%;
     height: 40rem;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #16222a, #3a6073);
     object-fit: cover;
     border-image-width: 20px;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     border-radius: 10px;
 }
 .outer_circle{
@@ -115,6 +116,18 @@
     color: white;
     display: flex;
     margin-top: -5rem;
+}
+.todo_heading{
+    display: flex;
+    width: 28%;
+    height: 4.2rem;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #16222a, #3a6073); 
+    padding: 10px;
+    margin-top: 16px;
+    border-radius: 10px;
+    font-size: 2rem;
 }
 @media only screen and (max-width: 600px){
 
