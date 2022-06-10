@@ -5,6 +5,9 @@ import { LandingPage } from "./Screens/Landingpage/Landing";
 import { PomoDoroPage } from "./Screens/PomodoroPage/pomodoroPage";
 import { LoginPage } from "./Screens/LoginPage/login";
 import { TodoPage } from "./Screens/TodoPage/Todo";
+import { TodoAddPage } from "./Screens/TodoPage/ToDoPage";
+import Modal from "./Components/Navbar/TimerComponent/Modal";
+import Todomodal from "./Components/TodoComponent/Todomodal";
 function App() {
   return (
     <div className="App">
@@ -14,6 +17,9 @@ function App() {
         <Route path="/pomopage" element={<PomoDoroPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/todo" element={<TodoPage />} />
+        <Route path="/todoaddpage" element={<TodoAddPage />} />
+        <Route path="/modal" element={<Modal />} />
+        <Route path="/todomodal" element={<Todomodal />} />
       </Routes>
     </div>
   );
