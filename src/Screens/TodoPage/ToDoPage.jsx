@@ -5,8 +5,7 @@ import Modal from "../../Components/Navbar/TimerComponent/Modal";
 import { FaCog } from "react-icons/fa";
 import { useTodoContext } from "../../Context/TodoProvider";
 const TodoAddPage = () => {
-  const { isActive, setIsActive, time, setTime, initTime, setProgressBar } =
-    useStateContext();
+  const { isActive, setIsActive, time, setTime, initTime } = useStateContext();
   const { taskAdded } = useTodoContext();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +16,6 @@ const TodoAddPage = () => {
   const onOpen = () => {
     setIsOpen(true);
   };
-
-  useEffect(() => {
-    setProgressBar(time / (initTime / 100));
-  }, [setProgressBar, time, initTime]);
 
   useEffect(() => {
     if (isActive && time > 0) {
