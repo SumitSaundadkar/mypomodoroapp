@@ -12,7 +12,6 @@ const PomoDoroPage = () => {
     activetag,
     setActiveTag,
     initTime,
-    setProgressBar,
   } = useStateContext();
 
   const [isOpen, setIsOpen] = useState(false);
@@ -23,10 +22,6 @@ const PomoDoroPage = () => {
   const onOpen = () => {
     setIsOpen(true);
   };
-
-  useEffect(() => {
-    setProgressBar(time / (initTime / 100));
-  }, [setProgressBar, time, initTime]);
 
   useEffect(() => {
     if (isActive && time > 0) {
